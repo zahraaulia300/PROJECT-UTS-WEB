@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Calculator UTS</title>
+    <!-- Menghubungkan File CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Section Header -->
+    <header>
+        <div class="brand-title">My App UTS</div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Section Main Content -->
+    <main>
+        <div class="container">
+            <h1 class="title">Operasi Matematika dengan JavaScript</h1>
+
+            <div class="form-group">
+                <label for="angkaPertama">Angka Pertama</label>
+                <input type="number" id="angkaPertama">
+            </div>
+
+            <div class="form-group">
+                <label for="angkaKedua">Angka Kedua</label>
+                <input type="number" id="angkaKedua">
+            </div>
+
+            <div class="form-group">
+                <label for="operasi">Operasi</label>
+                <select id="operasi">
+                    <option value="Penjumlahan">Penjumlahan</option>
+                    <option value="Pengurangan">Pengurangan</option>
+                    <option value="Perkalian">Perkalian</option>
+                    <option value="Pembagian">Pembagian</option>
+                </select>
+            </div>
+
+            <button class="btn-hitung" id="btnHitung">Hitung</button>
+
+            <div id="hasilBox" class="result-box"></div>
+        </div>
+    </main>
+
+    <!-- Section Footer -->
+    <footer>
+        © 2026 My App. All Rights Reserved.
+    </footer>
+
+    <!-- Menghubungkan File JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
